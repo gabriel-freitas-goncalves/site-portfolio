@@ -1,0 +1,108 @@
+.email {
+    width: auto;
+    padding-top: 85px;
+    background: #0718b3; 
+    height: auto;
+    box-shadow: inset 0 0 10px #020736; 
+}
+.email__container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    background: transparent;
+    color: #FFF;
+    display: block;
+    padding: 30px;
+    height: auto;
+}
+.contato__title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.email__container img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.section__talk {
+    display: flex;
+    align-items: center;
+    border-left: 8px solid #00a2ff;
+    
+}
+.talk {
+    max-width: 50%;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.talk h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.talk h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.talk p {
+    padding: 10px;
+}
+.form {
+    background: #334fbe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    min-width: 50%;
+    padding: 20px;
+    border-radius: 15px;
+    overflow: auto;
+}
+.boxes {
+    padding: 5px;
+}
+.span-required {
+    margin: 3px 0 2px 3px;
+    display: none;
+    font-size: .8rem;
+    color: #FFF;
+}
+.input_required,.input {
+    padding: 10px 5px;
+    outline: none;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: #04118b;
+    border-color: #334fbe;
+    color:#FFF;
+    width: 100%;
+    box-sizing: border-box;    
+    transition: .3s;
+    resize: none;
+}
+.input_required:focus,.input:focus {
+    border-color: #00a2ff;
+    box-shadow: inset 1px 1px 5px rgb(1, 0, 53);
+    background-color: #162972;
+}
+.input_required::placeholder,.input::placeholder {
+    color: #FFF;
+}
+.form button {
+    padding: 1rem;
+    margin: 0 7px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: #00a2ff;
+    border-radius: 10px;
+    background: #0718b3;
+    color: #FFF;
+    
+}
+.form button:hover {
+    background: #00A2FF;
+    transition: .3s;
+    box-shadow: 0 0 40px #00a2ff;
+} 

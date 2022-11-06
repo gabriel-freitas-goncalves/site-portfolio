@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="apresentacao.css">
+    <link rel="stylesheet" href="sobre.css">
+    <link rel="stylesheet" href="conhecimentos.css">
+    <link rel="stylesheet" href="hobbies.css">
+    <link rel="stylesheet" href="academic.css">
+    <link rel="stylesheet" href="experience.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#162972"/>
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/favicon-freitas.ico">
+    <link rel="stylesheet" href="responsivo.css">
+    <title>Gabriel Freitas</title>
+</head>
+<body>
+    <!--Cabecalho-->
+    <header class="cabecalho" id="cabecalho">
+       <div class="container"> 
+        <a href="index.html" title="Gabriel Freitas"><img class="logo-header" src="imagens/logo-header.png" alt="logo_freitas"></a>
+        <button onclick="toogleSiderBar()" class="btn__hamburguer__button">
+            <img class="btn__hamburguer__menu" src="imagens/hamburguer-01.png" alt="btn_menu">
+        </button>
+        
+        <nav class="cabecalhoPrincipal-nav">
+            <ul class="menu__list" id="menu__list">
+                <button onclick="toogleSiderBar()" class="btn__fechar__button">
+                    <img class="btn__fechar__menu" src="imagens/btn-fechar.png" alt="btn_fechar">
+                </button>
+                <li class="menu__list__item"><a href="#sobremim">Sobre</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a href="#formacao">Formações</a></li>
+                <li class="menu__list__item"><a href="#xp">Experiência</a></li>
+                <li class="menu__list__item"><a href="#contato">Contato</a></li>
+            </ul>
+           
+        </nav>
+      </div>
+    </header>
+        <main>
+            <!--Apresentacao-->
+            <section class="title">
+                <div class="title__div">
+                    <!--<img class="title__profile" src="imagens/apresentacao-gabriel.jpg"> -->                    
+                    <div class="title__container" id="#sobremim">
+                        <h2 class="title__bio">Olá! Meu nome é Gabriel Freitas e construo páginas web</h2>
+                        <h3 class="title__subsection">Eu sou formado em Design Gráfico e atualmente estou participando do projeto Oracle ONE na Alura.</h3>
+                        
+                        <ul class="title__network">                            
+                            <li class="title__network__item"><a href="https://github.com/gabriel-freitas-goncalves" target="_blank">Github <img src="imagens/simbolo github.png"> </a></li>
+                            <li class="title__network__item"><a href="https://www.linkedin.com/in/gabrielfreitasgon%C3%A7alves/" target="_blank">Linkedin <img src="imagens/simbolo linkedin.png"></a></li>
+                            <li class="title__network__item"><a href="https://www.instagram.com/freitas_criacoes_artes/" target="_blank">Instagram <img src="imagens/Simbolo Instagram.png"></a></li>
+                            <li class="title__network__item"><a href="document/curriculum-vitae gabriel-freitas front.pdf" download="Curriculum_Vitae_Gabriel" target="_blank">Curriculo <img src="imagens/simbolo documento.png"></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img class="imagem__redonda" src="imagens/imagem-redonda-apresentacao-01.png">
+                    </div>
+                </div>
+            </section>
+            <!--Sobre-->
+            <section id="sobremim" class="about">
+                <div class="about__container">
+                    <img src="imagens/seta indicadora.png" alt="seta_abaixo">
+                    <h3 class="about__title">Sobre mim</h3>
+                    <p class="about__paragraph">Meu nome é Gabriel Freitas, tenho 27 anos, brasileiro e um apaixonado por tecnologia. Sou estudante em Programação Front-End do projeto Oracle, em parceria com a Alura, chamado ONE (Oracle Next Education). Atualmente estou em busca de uma oportunidade para atuar na área a qual estou estudando e me preparando. Conhecimento em HTML, CSS e JavaScript. </p></br>
+                    <p class="about__paragraph">Sou formado em Design Gráfico pela Universidade Unigranrio. Experiência com programas Adobe (Illustrator, Photoshop, Indesign, Premiere e After Effects) e Corel Draw. Conhecimento avançado em Power Point, Excel e Word. Produção de vídeos comerciais a partir do Adobe Premiere e After Effects.</p>
+                    
+                </div>
+            </section>
+            <!--Skills-->
+            <section id="skills" class="skills">
+                <div class="skills__container"> 
+                    <img src="imagens/seta indicadora.png" alt="seta_abaixo"> 
+                    <h3 class="skills__title" id="skills">Skills</h3>
+                        <div class="skills__line">
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"><img src="imagens/icone-html.png" alt="html"></li>
+                                    <li class="skills__name"> HTML 5</li>
+                                </ul>
+                            </div>
+            
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"> <img src="imagens/icone-css-3.png" alt="css"></li>
+                                    <li class="skills__name">CSS 3</li>
+                                </ul>
+                            </div>
+            
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"> <img src="imagens/icone-javaScript.png" alt="javascript"></li>
+                                    <li class="skills__name">JavaScript</li>
+                                </ul>
+                            </div>
+            
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"><img src="imagens/git_icon.png" alt="git"></li>
+                                    <li class="skills__name">GIT</li>
+                                </ul>
+                            </div>
+            
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"> <img src="imagens/Adobe-Ps-icon.png" alt="photoshop"> </li>
+                                    <li class="skills__name">Adobe Photoshop</li>
+                                </ul>
+                            </div>
+            
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"> <img src="imagens/Adobe-Ae-icon.png" alt="after effects"> </li>
+                                    <li class="skills__name">Adobe After Effects</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"> <img src="imagens/Adobe-Pr-icon.png" alt="premiere"> </li>
+                                    <li class="skills__name">Adobe Premiere</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__img"> <img src="imagens/Adobe-Ai-icon.png" alt="ilustrator"> </li>
+                                    <li class="skills__name">Adobe Ilustrator</li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>        
+            </section>
+            <!--Hobbies-->
+            <section class="hobbies" id="hobbies">
+                <div class="hobbies__container">
+                    <img src="imagens/seta indicadora.png" alt="seta_abaixo"> 
+                    <h3 class="hobbies__title">Hobbies</h3>
+                        <div class="hobbies__line">
+                            <div class="hobbies__box">
+                                <ul>
+                                    <li class="hobbies__img"><img src="imagens/musica.png" alt="música"></li>
+                                    <li class="hobbies__name"> Escutar música</li>
+                                </ul>
+                            </div>
+            
+                            <div class="hobbies__box">
+                                <ul>
+                                    <li class="hobbies__img"> <img src="imagens/miniatura-01.png" alt="miniatura"></li>
+                                    <li class="hobbies__name">Colecionar miniaturas</li>
+                                </ul>
+                            </div>
+            
+                            <div class="hobbies__box">
+                                <ul>
+                                    <li class="hobbies__img"> <img src="imagens/Assistir filmes.png" alt="filme"></li>
+                                    <li class="hobbies__name">Assistir filmes</li>
+                                </ul>
+                            </div>
+            
+                            <div class="hobbies__box">
+                                <ul>
+                                    <li class="hobbies__img"><img src="imagens/desenhar.png" alt="desenhar"></li>
+                                    <li class="hobbies__name">Desenhar</li>
+                                </ul>
+                            </div>
+                        </div>
+                 </div>       
+            </section>
+            <!--formacao-->
+            <section id="formacao"class="academic">
+                <div class="academic__container">
+                    <img src="imagens/seta indicadora.png" alt="seta_abaixo"> 
+                    <h2 class="academic__title" id="formacao">Formação acadêmica</h2>
+                    <div class="academic__courses">
+                        <div class="academic__courses__box">
+                            <ul class="academic__courses__list">
+                                <li class="academic__courses__item__img_um"><img src="imagens/alura.png" alt="Alura"></li>
+                                <li class="academic__courses__item__title"><h4>Programação Front-End</h4></li>
+                                <li class="academic__courses__item__subtitle"><p>Em andamento - Alura</p></li>
+                            </ul>
+                        </div>
+                        <div class="academic__courses__box">
+                            <ul class="academic__courses__list">
+                                <li class="academic__courses__item__img_dois"><img src="imagens/faetec.png" alt="Faetec"></li>
+                                <li class="academic__courses__item__title"><h4>Técnico Administrativo</h4></li>
+                                <li class="academic__courses__item__subtitle"><p>2021 - FAETEC</p></li>
+                            </ul>
+                        </div>
+                        <div class="academic__courses__box">
+                            <ul class="academic__courses__list">                                
+                                <li class="academic__courses__item__img_tres"><img src="imagens/Logo Unigranrio-01.png" alt="Unigranrio"></li>
+                                <li class="academic__courses__item__title"><h4>Graduação-Design Gráfico</h4></li>
+                                <li class="academic__courses__item__subtitle"><p>2017 - Unigranrio</p></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>    
+            </section>
+            <!--experiencia-->
+            <section id="xp"class="experience">
+                <div class="experience__container"> 
+                <img src="imagens/seta indicadora.png" alt="seta_abaixo">
+                <h2 class="experience__section__title" id="xp">Experiência Profissional</h2>
+                <div class="experiencie__box">
+                    <img class="experience__img" src="imagens/Imagem-para-port-site-decodificador-de-texto.jpg" alt="Decodificador de texto">
+                    <div class="experience__info">
+                        <h2 class="experience__title">Decodificador de texto </h2>
+                        <h3 class="experience__text">Projeto de decodificador de texto.</h3>
+                        <div class="icon__ferramentas">
+                            <img class="icon__ferramentas_item" src="imagens/icone-html.png" alt="ícone html">
+                            <img class="icon__ferramentas_item" src="imagens/icone-css-3.png" alt="ícone css">
+                            <img class="icon__ferramentas_item" src="imagens/icone-javaScript.png" alt="ícone javascript">
+                        </div>
+                            <div class="experience__description">                                
+                                    <span class="experience__repo"><a href="https://github.com/gabriel-freitas-goncalves/encriptador-de-texto" target="_blank" ><button class="experiencia__botao--repo"><img src="imagens/icon-repositorio.png" alt="ícone repositório">Repositório</button></a></span>
+                                    <span class="experience__demo"><a href="https://gabriel-freitas-goncalves.github.io/encriptador-de-texto/" target="_blank" ><button class="experiencia__botao--demo"><img src="imagens/eye.png" alt="ver">demonstração</button></a></span>
+                            </div>
+                    </div>
+                </div>  
+        
+                <div class="experiencie__box">                    
+                    <img class="experience__img" src="imagens/Imagem-para-port-site-portfolio.jpg" alt="site-portfólio">
+                    <div class="experience__info">
+                        <h2 class="experience__title">Site para portfólio</h2>
+                        <h3 class="experience__text">Este site.</h3>
+                        <div class="icon__ferramentas">
+                            <img class="icon__ferramentas_item" src="imagens/icone-html.png" alt="ícone html">
+                            <img class="icon__ferramentas_item" src="imagens/icone-css-3.png" alt="ícone css">
+                            <img class="icon__ferramentas_item" src="imagens/icone-javaScript.png" alt="ícone javascript">
+                        </div>
+                            <div class="experience__description">                                
+                                    <span class="experience__repo"><a href=""><button class="experiencia__botao--repo"><img src="imagens/icon-repositorio.png" alt="ícone repositório">Repositório</button></a></span>
+                                    <!--<span class="experience__demo"><a href=""><button class="experiencia__botao--demo"><img src="imagens/eye.png">demonstração</button></a></span> -->
+                            </div>
+                    </div>
+                </div>  
+            </section>
+            <!--Espaço para contato-->
+            <section id="contato"class="email">
+                <div class="email__container">
+                    <img src="imagens/seta indicadora.png" alt="seta_abaixo"> 
+                    <h2 class="contato__title"">Contato</h2>
+                    <div class="section__talk">
+                     <div class="talk">
+                        <h2>Vamos conversar?</h2>
+                        <p>Preencha os campos a seguir e entrarei em contato.</p>
+                        <h3>Tel.: (21) 99695-2462</h3>
+                        <h3>g.freitas19@hotmail.com</h3>
+                     </div>
+                        <form class="form">
+                            <div class="boxes">
+                                <input type="text" placeholder="Digite seu nome" class="input_required" oninput="nameValidate()">
+                                <span class="span-required">O nome deve ter, no mínimo, 3 caracteres</span>
+                            </div>
+                            <div class="boxes">
+                                <input type="email" placeholder="Digite seu e-mail" class="input_required" oninput="emailValidate()">
+                                <span class="span-required">O e-mail deve ser válido</span>
+                            </div>
+                            <div class="boxes">
+                                <input type="text" placeholder="Assunto" class="input_required" oninput="assuntoValidate()">
+                                <span class="span-required">Digite um assunto</span>
+                            </div>
+                            <div class="boxes">
+                                <textarea class="input" name="descricao" id="descricao" cols="25" rows="10" placeholder="Mensagem" ></textarea>
+                            </div>
+                            <button type="submit">Enviar</button>
+                        </form> 
+                    </div>                   
+                </div>
+            </section>
+        </main>
+        <!--Ropdape-->
+        <footer>
+            <section class="footer">
+                <div class="footer__rodape">
+                    <p>Desenvolvido por: Gabriel Freitas - 2022</p>
+                    <img src="imagens/logo-rodape.png" alt="logo_branco_freitas">
+                </div>
+            </section>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>            
+                            
+                        
+                   
+
