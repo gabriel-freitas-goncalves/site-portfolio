@@ -20,10 +20,10 @@ let campos = document.querySelectorAll('.input_required');
 let span = document.querySelectorAll('.span-required');
 let emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 form.addEventListener('submit', (event) =>{
-    event.preventDefault();
+    event.target();
     nameValidate();
     emailValidate();
-    assuntoValidate();
+    assuntoValidate();       
 });
 
     function setError(index) {
