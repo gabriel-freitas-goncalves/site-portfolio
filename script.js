@@ -18,8 +18,7 @@ function toogleSiderBar() {
 let form = document.querySelector('.form');
 let campos = document.querySelectorAll('.input_required');
 let span = document.querySelectorAll('.span-required');
-let emailRegex = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/gi ;
-
+let emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 form.addEventListener('submit', (event) =>{
     event.preventDefault();
     nameValidate();
